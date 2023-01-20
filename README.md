@@ -8,5 +8,5 @@ and it must infer the answer.
 ![plot](./imgs/DemoWebcam.png)
 
 <br>
-## **Web Application Demo**
+### **Web Application Demo**
 ![plot](./imgs/WebApplication.png)
