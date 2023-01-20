@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VQA Demo</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="/assets/js/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/button-handler.js"></script>
+    <script src="assets/js/load-image.js"></script>
+    <link rel="icon" href="assets/img/Visual Question Answering.png" type="image/png">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/webcam.js"></script>
+  </head>
+    
+  <body>
+    <div class="container contact-form">
+      <div class="contact-image">
+          <img src="assets/img/Visual Question Answering.png">
+      </div>
+      <div class="title form">
+        <h3>Visual Question Answering </h3>
+         <div class="row">
+                <div class="col-md-6">            
+                      <input  class="form-control input-group mb-3" type="file"  id="file" name="file" accept="image/*" onchange="previewImage();">
+                      <button type="button" class="input-group mb-3 btn btn-default" id="btn1">Load the questions</button>                  
+                      <select  class="selectpicker btn input-group mb-3"  id="mySelect" a></select>
+                      <button type="button" class="btn btn-default input-group mb-3" id="btn2">Answer to the question!</button>
+                      <p id="test1"></p>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <img id="preview" class="img-fluid" >
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    
+    
+  </body>
+
+</html>
